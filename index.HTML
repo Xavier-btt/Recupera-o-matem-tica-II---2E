@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando a Conexão - CAMPO E CIDADE</title>
+    <!-- Inclui o Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carrega a fonte Inter do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Define a fonte Inter para todo o corpo do documento */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Permite que as colunas laterais tenham rolagem se o conteúdo for muito grande */
+        .scrollable-column {
+            max-height: calc(100vh - 200px); /* Ajuste conforme necessário para o tamanho da tela */
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-green-50 to-blue-50 min-h-screen p-4 flex items-center justify-center">
+    <div class="container mx-auto bg-white shadow-xl rounded-2xl p-6 lg:p-8 max-w-7xl w-full">
+        <!-- Título principal do site, centralizado e com margem inferior -->
+        <h1 class="text-3xl lg:text-4xl font-extrabold text-center text-green-700 mb-8 tracking-tight">
+            Festejando a Conexão - CAMPO E CIDADE
+        </h1>
+
+        <!-- Descrição do site, centralizada e com margem inferior -->
+        <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed text-lg">
+            "Festejando a Conexão" é mais do que um site; é o catalisador para uma nova era de colaboração. Nossa intenção é criar uma ponte sólida e confiável entre o campo e a cidade, facilitando transições econômicas justas e sustentáveis. Acreditamos no potencial da interconexão para fortalecer comunidades e impulsionar a economia local.
+        </p>
+
+        <!-- Layout principal de três colunas -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+
+            <!-- Coluna do Produtor -->
+            <div class="bg-green-100 p-6 rounded-xl shadow-md border border-green-200 flex flex-col justify-between">
+                <div class="scrollable-column">
+                    <h2 class="text-2xl font-bold text-green-800 mb-4 text-center">PRODUTOR</h2>
+                    <div class="bg-white rounded-lg p-4 mb-4 shadow-sm">
+                        <!-- Imagem placeholder para o produtor -->
+                        <img src="Imagem.avif" alt="Caminho do Produtor" class="w-full h-auto rounded-lg mb-4 object-cover">
+                        <p class="text-green-700 font-semibold mb-3 leading-snug">
+                            Produtores próximos de você! Encontre e conecte-se com produtores locais que oferecem
+                            produtos frescos e de qualidade. Descubra fazendas orgânicas, produtores de laticínios artesanais,
+                            e muito mais. Nosso objetivo é facilitar a sua busca por produtos de origem confiável e fortalecer
+                            a economia rural.
+                        </p>
+                        <h3 class="text-lg font-semibold text-green-800 mb-2">Informações Detalhadas do Produtor:</h3>
+                        <ul class="list-none space-y-2 text-gray-700 text-sm mb-4">
+                            <!-- Lista de itens de exemplo para o produtor -->
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+                                <span>**Nome:** [Nome Completo do Produtor/Fazenda Exemplo: Fazenda Esperança]</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                                <span>**Localização:** [Exemplo: Sítio Primavera, Km 5, Zona Rural, Campinas - SP, 13000-000]</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.928.688l2.052 3.419a1 1 0 01-.073 1.077l-1.558 1.559a1.5 1.5 0 00.21 2.121l.666.667a1.5 1.5 0 002.12.21l1.559-1.559a1 1 0 011.076-.074l3.419 2.052a1 1 0 01.688.928V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                                <span>**Contato:** [+55 (19) 91234-5678], [contato@fazendaesperanca.com.br]</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.323a1 1 0 00.688.928l2.052 3.419a1 1 0 00.928.688H17a1 1 0 011 1v2a1 1 0 01-1 1h-1.323a1 1 0 00-.928.688l-3.419 2.052a1 1 0 00-.688.928V17a1 1 0 01-1 1h-2a1 1 0 01-1-1v-1.323a1 1 0 00-.928-.688l-3.419-2.052a1 1 0 00-.688-.928H3a1 1 0 01-1-1v-2a1 1 0 011-1h1.323a1 1 0 00.928-.688l3.419-2.052A1 1 0 009 3.323V3a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+                                <span>**Especialização:** [Culturas principais: Hortaliças Orgânicas, Frutas Exóticas, Produção de Ovos Caipiras]</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                                <span>**Tipos de Cultivo:** Orgânico certificado, Cultivo Sustentável, Agroecológico</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1a1 1 0 001 1h2a1 1 0 001-1V3a1 1 0 00-1-1H6zm4 0a1 1 0 00-1 1v1a1 1 0 001 1h2a1 1 0 001-1V3a1 1 0 00-1-1h-2zm4 0a1 1 0 00-1 1v1a1 1 0 001 1h2a1 1 0 001-1V3a1 1 0 00-1-1h-2zM6 6a1 1 0 00-1 1v1a1 1 0 001 1h2a1 1 0 001-1V7a1 1 0 00-1-1H6zm4 0a1 1 0 00-1 1v1a1 1 0 001 1h2a1 1 0 001-1V7a1 1 0 00-1-1h-2zm4 0a1 1 0 00-1 1v1a1 1 0 001 1h2a1 1 0 001-1V7a1 1 0 00-1-1h-2z" clip-rule="evenodd"></path></svg>
+                                <span>**Certificações:** Selo Orgânico Brasil, ABIO, Produtor Familiar CNPJ</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path><path fill-rule="evenodd" d="M4.395 7.158A1 1 0 015 7h10a1 1 0 01.605.158l4 2A1 1 0 0120 10v4a1 1 0 01-1 1h-.395l-4-2A1 1 0 0114 12V8a1 1 0 00-1-1h-2a1 1 0 00-1 1v4a1 1 0 01-1 1h-2a1 1 0 01-1-1V8a1 1 0 00-1-1h-2a1 1 0 00-1 1v4a1 1 0 01-1 1H4a1 1 0 01-1-1V8a1 1 0 01.395-.842zM15 15a1 1 0 100 2h2a1 1 0 100-2h-2zm-6 0a1 1 0 100 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg>
+                                <span>**Métodos de Entrega:** Retirada na Fazenda (com agendamento), Delivery em cidades próximas, Pontos de Coleta parceiros (feiras orgânicas)</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 text-sm leading-relaxed mt-4">
+                            Nossa plataforma oferece ferramentas intuitivas para que produtores possam gerenciar
+                            seus estoques, divulgar novos produtos, e interagir diretamente com consumidores e
+                            comerciantes. Simplifique sua logística e aumente suas vendas conectando-se à rede
+                            Farm Inc.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex justify-around w-full mt-4 bg-green-50 py-4 rounded-full shadow-inner">
+                    <!-- Ícone de casa -->
+                    <button class="p-3 rounded-full hover:bg-green-200 transition-colors flex flex-col items-center text-green-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        <span>Início</span>
+                    </button>
+                    <!-- Ícone de mensagem -->
+                    <button class="p-3 rounded-full hover:bg-green-200 transition-colors flex flex-col items-center text-green-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.739-1.189L3 17l1.294-2.294A7 7 0 012 10c0-3.866 3.582-7 8-7s8 3.134 8 7z" clip-rule="evenodd"></path></svg>
+                        <span>Mensagens</span>
+                    </button>
+                    <!-- Ícone de câmera -->
+                    <button class="p-3 rounded-full hover:bg-green-200 transition-colors flex flex-col items-center text-green-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"></path></svg>
+                        <span>Publicar</span>
+                    </button>
+                    <!-- Ícone de usuário -->
+                    <button class="p-3 rounded-full hover:bg-green-200 transition-colors flex flex-col items-center text-green-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg>
+                        <span>Perfil</span>
+                    </button>
+                </div>
+                <button class="mt-6 w-full bg-green-600 text-white py-2 px-4 rounded-lg font-bold hover:bg-green-700 transition-colors shadow-md">
+                    Cadastre-se como Produtor
+                </button>
+            </div>
+
+            <!-- Coluna Central: Navegação e Mapa -->
+            <div class="bg-blue-100 p-6 rounded-xl shadow-md border border-blue-200 flex flex-col items-center">
+                <div class="w-full flex justify-between items-center mb-6">
+                    <!-- Ícone de menu (hambúrguer) -->
+                    <button class="p-2 rounded-full hover:bg-blue-200 transition-colors">
+                        <svg class="w-7 h-7 text-blue-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    </button>
+                    <!-- Título do aplicativo -->
+                    <h2 class="text-3xl font-extrabold text-blue-800 tracking-wide">Farm Inc</h2>
+                    <!-- Ícone de perfil do usuário -->
+                    <button class="p-2 rounded-full hover:bg-blue-200 transition-colors">
+                        <svg class="w-7 h-7 text-blue-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+
+                <!-- Barra de pesquisa -->
+                <div class="relative w-full mb-6">
+                    <input type="text" placeholder="Pesquisar produtos, produtores, locais..." class="w-full p-3 pl-10 pr-4 rounded-full border border-blue-300 focus:ring-2 focus:ring-blue-400 focus:border-transparent outline-none text-gray-700">
+                    <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+
+                <!-- Área do Mapa -->
+                <div class="flex-grow w-full bg-blue-200 rounded-xl flex flex-col items-center justify-center text-blue-700 text-3xl font-semibold mb-6 shadow-inner p-4" style="min-height: 280px;">
+                    <p class="mb-4 text-center text-xl">Explore os produtores e produtos próximos a você!</p>
+                    <!-- Imagem placeholder para o mapa -->
+                    <img src="Mapaeconomicopr.gif" alt="Mapa Interativo" class="w-full h-auto rounded-lg object-cover">
+                    <p class="mt-4 text-center text-sm text-gray-600">Use o mapa para encontrar os melhores produtos da sua região.</p>
+                </div>
+
+                <!-- Ícones de navegação inferior -->
+                <div class="flex justify-around w-full mt-auto bg-blue-50 py-4 rounded-full shadow-inner">
+                    <!-- Ícone de casa -->
+                    <button class="p-3 rounded-full hover:bg-blue-200 transition-colors flex flex-col items-center text-blue-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        <span>Início</span>
+                    </button>
+                    <!-- Ícone de mensagem -->
+                    <button class="p-3 rounded-full hover:bg-blue-200 transition-colors flex flex-col items-center text-blue-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.739-1.189L3 17l1.294-2.294A7 7 0 012 10c0-3.866 3.582-7 8-7s8 3.134 8 7z" clip-rule="evenodd"></path></svg>
+                        <span>Mensagens</span>
+                    </button>
+                    <!-- Ícone de câmera -->
+                    <button class="p-3 rounded-full hover:bg-blue-200 transition-colors flex flex-col items-center text-blue-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"></path></svg>
+                        <span>Publicar</span>
+                    </button>
+                    <!-- Ícone de usuário -->
+                    <button class="p-3 rounded-full hover:bg-blue-200 transition-colors flex flex-col items-center text-blue-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg>
+                        <span>Perfil</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Coluna de Informações -->
+            <div class="bg-yellow-100 p-6 rounded-xl shadow-md border border-yellow-200 flex flex-col justify-between">
+                <div class="scrollable-column">
+                    <h2 class="text-2xl font-bold text-yellow-800 mb-4 text-center">INFORMAÇÕES</h2>
+                    <div class="bg-white rounded-lg p-4 shadow-sm space-y-4">
+                        <p class="text-gray-700 text-sm leading-relaxed mb-3">
+                            Para mais detalhes sobre a Farm Inc, nossos produtores parceiros e a variedade de produtos disponíveis,
+                            confira as informações abaixo. Estamos aqui para conectar você ao melhor do campo, oferecendo
+                            transparência e facilidade no acesso a alimentos de qualidade.
+                        </p>
+                        <h3 class="text-lg font-semibold text-yellow-800 mb-2">Detalhes de Contato e Suporte:</h3>
+                        <!-- Ícone de email -->
+                        <div class="flex items-center text-gray-700 text-sm">
+                            <svg class="w-6 h-6 mr-3 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                            <span>**Email:** contato@farminc.com.br (Suporte 24h)</span>
+                        </div>
+                        <!-- Ícone de telefone -->
+                        <div class="flex items-center text-gray-700 text-sm">
+                            <svg class="w-6 h-6 mr-3 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.928.688l2.052 3.419a1 1 0 01-.073 1.077l-1.558 1.559a1.5 1.5 0 00.21 2.121l.666.667a1.5 1.5 0 002.12.21l1.559-1.559a1 1 0 011.076-.074l3.419 2.052a1 1 0 01.688.928V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                            <span>**Telefone:** +55 (11) 98765-4321 (Atendimento de Seg-Sex, 9h-18h)</span>
+                        </div>
+                        <!-- Ícone de localização -->
+                        <div class="flex items-center text-gray-700 text-sm">
+                            <svg class="w-6 h-6 mr-3 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                            <span>**Escritório Central:** Rua do Campo, 123, Bairro Verde, São Paulo - SP, 01000-000</span>
+                        </div>
+                        <!-- Ícone de redes sociais -->
+                        <div class="flex items-center text-gray-700 text-sm">
+                            <svg class="w-6 h-6 mr-3 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM6 9a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                            <span>**Redes Sociais:** @FarmIncOficial (Instagram, Facebook, Twitter)</span>
+                        </div>
+                        <hr class="border-t border-yellow-200 my-4">
+                        <!-- Informações sobre produtos agrícolas -->
+                        <h3 class="text-lg font-semibold text-yellow-800 mb-2">Nosso Catálogo de Produtos Agrícolas:</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4 text-sm mb-4">
+                            <li>**Grãos de Qualidade Superior:** Soja não-transgênica, Milho doce, Trigo para panificação, Arroz integral, Feijão carioca e preto selecionados.</li>
+                            <li>**Frutas Frescas e Sazonais:** Maçãs Fuji e Gala, Bananas Prata e Nanica, Laranjas Pera e Lima, Uvas Niágara e Thompson, Morangos, Mirtilos e Framboesas orgânicas.</li>
+                            <li>**Vegetais Colhidos na Hora:** Alface crespa e americana, Tomates cereja e italianos, Cenouras, Brócolis, Couve-flor, Pimentões de diversas cores, Batatas e Mandiocas.</li>
+                            <li>**Laticínios Artesanais e Frescos:** Leite pasteurizado integral e desnatado, Queijos frescais (minas, mussarela), Queijos curados (parmesão, provolone), Iogurtes naturais sem adição de açúcar, Manteiga de garrafa.</li>
+                            <li>**Carnes de Origem Sustentável:** Cortes bovinos (picanha, alcatra), Suínos (costelinha, pernil), Aves caipiras, Ovos frescos de galinhas criadas soltas.</li>
+                            <li>**Produtos Processados e Artesanais:** Mel puro de abelhas nativas, Geleias de frutas regionais (goiaba, jabuticaba), Pães de fermentação natural, Conservas diversas, Doces de leite, Compotas.</li>
+                            <li>**Flores e Plantas Ornamentais:** Buquês de flores do campo, Rosas, Orquídeas, Suculentas e uma variedade de plantas para paisagismo e jardinagem.</li>
+                            <li>**Azeites e Óleos Especiais:** Azeite de oliva extra virgem de produção local, Óleos vegetais prensados a frio (girassol, milho).</li>
+                        </ul>
+                        <p class="text-gray-700 text-sm leading-relaxed mt-4">
+                            Estamos comprometidos em oferecer uma ampla gama de produtos que atendam às necessidades
+                            e preferências de nossos clientes na cidade, enquanto garantimos um preço justo e reconhecimento
+                            aos produtores do campo.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex justify-around w-full mt-4 bg-yellow-50 py-4 rounded-full shadow-inner">
+                    <!-- Ícone de casa -->
+                    <button class="p-3 rounded-full hover:bg-yellow-200 transition-colors flex flex-col items-center text-yellow-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        <span>Início</span>
+                    </button>
+                    <!-- Ícone de mensagem -->
+                    <button class="p-3 rounded-full hover:bg-yellow-200 transition-colors flex flex-col items-center text-yellow-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.739-1.189L3 17l1.294-2.294A7 7 0 012 10c0-3.866 3.582-7 8-7s8 3.134 8 7z" clip-rule="evenodd"></path></svg>
+                        <span>Mensagens</span>
+                    </button>
+                    <!-- Ícone de câmera -->
+                    <button class="p-3 rounded-full hover:bg-yellow-200 transition-colors flex flex-col items-center text-yellow-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"></path></svg>
+                        <span>Publicar</span>
+                    </button>
+                    <!-- Ícone de usuário -->
+                    <button class="p-3 rounded-full hover:bg-yellow-200 transition-colors flex flex-col items-center text-yellow-700 text-xs">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg>
+                        <span>Perfil</span>
+                    </button>
+                </div>
+                <button class="mt-6 w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-bold hover:bg-yellow-700 transition-colors shadow-md">
+                    Ver Catálogo Completo
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
